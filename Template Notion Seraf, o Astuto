@@ -18,6 +18,14 @@ def contatos():
 def usuarios(nome_usuario):
     return render_template("usuarios.html", nome_usuario=nome_usuario)
 
+# perfil do usuário
+nome = ("digite aqui")
+idade = ("digite aqui")
+nível = 1
+print ("nome")
+print ("idade")
+print ("nível")
+
 # colocar o site no ar
 if __name__ == "__main__":
     app.run(debug=True)
