@@ -6,7 +6,7 @@ app = Flask(__name__)
 # rota para a página inicial
 @app.route("/")
 def homepage():
-    return "Sejam bem-vindos"
+    return print ("Sejam bem-vindos")
 
 # rota para a página de contatos
 @app.route("/contatos")
